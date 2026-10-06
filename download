@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# Round 3: README.md already documents data/*.json as generated at
+# import/runtime, not meant to be checked in -- this wasn't actually
+# enforced anywhere. Added here so a local checkout that's already run
+# the importer (or logged in a user) doesn't end up with that generated
+# data accidentally staged in a commit.
+data/*.json
